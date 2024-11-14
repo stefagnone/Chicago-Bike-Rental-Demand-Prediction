@@ -1,34 +1,37 @@
-# Chicago Bike Rental Demand Prediction
+# Bike Rental Demand Prediction Model for Chicago
 
 ## Project Overview
-In this project, I developed a machine learning model to predict daily bike rental demand in the Chicago metropolitan area. Working with the Cook County Planning and Development Department, the goal was to provide insights into factors influencing bike rental demand and build a reliable predictive model. This project leverages regression techniques to address the increasing need for bike rental services due to convenience, sustainability, and fitness trends.
+In this project, I developed a machine learning model to predict daily bike rental demand for Chicago, leveraging a dataset provided by the Cook County Planning and Development Department. This model will help city planners understand demand trends and make data-driven decisions to optimize bike-sharing services.
 
 The analysis focused on:
-- Identifying key variables that impact daily bike rental demand.
-- Evaluating multiple regression models to find the best predictive solution.
-- Conducting hyperparameter tuning on top-performing models for improved accuracy.
+- Identifying factors that influence bike rental demand.
+- Building multiple regression models, tuning hyperparameters, and comparing model performance.
+- Selecting a final model and making predictions based on the model’s accuracy.
+
+The project demonstrates practical application in predictive modeling, feature engineering, and data-driven decision-making.
 
 ## Technologies Used
-- **Python**: Data analysis and machine learning modeling
-- **Jupyter Notebook**: Interactive code development
-- **Scikit-Learn**: Model building, evaluation, and hyperparameter tuning
-- **Data Visualization**: Matplotlib and Seaborn for exploratory data visualization
+- **Python**: Data preprocessing, model training, and evaluation
+- **Pandas, NumPy**: Data manipulation and processing
+- **Scikit-Learn**: Machine learning models, hyperparameter tuning
+- **Matplotlib, Seaborn**: Data visualization
 
 ## Repository Structure
-- `Data/`: Contains the dataset file (`chicago_training_data.xlsx`) used for training the models.
-- `Code/`: Includes the Jupyter Notebook (`Compagnone_Stefano_A1.ipynb`) with the full analysis, model development, and final predictions.
-- `Submissions/`: Contains the Kaggle submission file (`final_predictions.csv`) with the final model's predictions.
+- `Data/`: Contains the training data file (`chicago_training_data.xlsx`) and final predictions file (`final_model_predictions.csv`) submitted on Kaggle.
+- `Code/`: Jupyter Notebook with the full analysis, model training, and evaluation (`Compagnone_Stefano_A1.ipynb`).
+- `Output/`: Kaggle submission predictions file for the final model (`final_model_predictions.csv`).
 
 ## Key Insights
-- Exploratory Data Analysis (EDA) revealed significant features impacting bike rental demand, including weather conditions, time of year, and economic factors.
-- Feature engineering created additional meaningful features that enhanced model interpretability.
-- Ridge Regression emerged as the top-performing model after hyperparameter tuning, providing accurate predictions with minimal overfitting.
+- The model identified significant predictors for bike rental demand, such as weather conditions, day of the week, and seasonal patterns.
+- Among various models, the best-performing model achieved a high accuracy on both training and testing datasets, minimizing overfitting.
+- Insights from the analysis will aid in improving bike-sharing infrastructure and addressing peak demand periods effectively.
 
 ## Instructions
 1. Clone this repository.
-2. Run the Jupyter Notebook (`Compagnone_Stefano_A1.ipynb`) in Jupyter or JupyterLab.
-3. Ensure the required libraries are installed as per the imports in the notebook.
-4. Review the generated predictions in `final_predictions.csv` and insights from the EDA and model analysis.
+2. Open the Jupyter Notebook (`Compagnone_Stefano_A1.ipynb`) in Jupyter or any compatible environment.
+3. Ensure that required libraries (like `scikit-learn`, `pandas`, `matplotlib`) are installed.
+4. Run the notebook to explore data analysis, model training, and final predictions.
+5. Review the predictions in `Output/final_model_predictions.csv`.
 
 ## Contact
-Connect with me on [LinkedIn](https://www.linkedin.com/in/stefano-compagnone98/) for more information or to discuss this project.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/stefano-compagnone98/) for more information or explore my other projects on GitHub.
