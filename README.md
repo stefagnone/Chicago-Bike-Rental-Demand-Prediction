@@ -1,7 +1,7 @@
 # Bike Rental Demand Prediction Model for Chicago
 
 ## Project Overview
-This project showcases my data analytics and machine learning expertise, where I developed a model to predict daily bike rental demand for Chicago. Competing against 65 participants in the **Computational Data Analytics (DD Spring 2024)** Kaggle competition, my solution ranked **2nd on the leaderboard**, achieving a **score of 0.83380**.
+This project showcases my data analytics and machine learning expertise, where I developed a model to predict daily bike rental demand for Chicago. Competing against 67 participants in the **Computational Data Analytics (DD Spring 2024)** Kaggle competition, my solution ranked **2nd on the leaderboard**, achieving a **score of 0.83380**.
 
 The analysis involved:
 - Identifying factors influencing bike rental demand.
